@@ -1,1 +1,26 @@
+# Python cache
 __pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# Spark warehouse (important !)
+spark-warehouse/
+
+# ===  df.createOrReplaceTempView("data") => Spark peut créer automatiquement : spark-warehouse/
+
+#si tu ne l'ignores pas, Git va :
+
+#° tracker des fichiers lourds
+
+#° ralentir le repo
+
+#° créer des conflits'''
+#===
+
+# Data files
+data.csv
